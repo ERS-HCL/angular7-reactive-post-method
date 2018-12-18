@@ -47,8 +47,7 @@ import {
     FormsModule,
     FormGroup,
     FormControl,
-    Validators,
-    FormBuilder} from '@angular/forms';
+    Validators} from '@angular/forms';
 
 export class AppComponent  {
   title = 'angular7-reactive-postMethod';
