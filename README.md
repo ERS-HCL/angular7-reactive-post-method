@@ -146,4 +146,4 @@ In `app.component.html`,
 #### Below is  the form data post and sending the data on payload
 <p align="center">
     <img  alt="Angular7-reactive-postData" src="img/reactive-postData.JPG" class="img-responsive">
-</p>.jpg
+</p>
