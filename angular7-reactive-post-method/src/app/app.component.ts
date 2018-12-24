@@ -18,10 +18,14 @@ export class AppComponent  {
   myform: FormGroup;	  
     constructor( private http: HttpClient) {
     	this.myform = new FormGroup({
-         fName: new FormControl(	'',	[Validators.required, Validators.pattern('^[a-zA-Z]{2,15}$')]),
-         lName: new FormControl(  '',  [Validators.required, Validators.pattern('^[a-zA-Z]{2,15}$')]),
+         uName: new FormControl(	'',	[Validators.required]),
+         password: new FormControl(  '',  [Validators.required]),
          eMail: new FormControl(  '',  [Validators.required, Validators.pattern('^.+@.+\..+$')]),
-         address: new FormControl('', 	[Validators.required])
+         cOption: new FormControl('',   [Validators.required]),
+         optionsRadios : new FormControl('',   [Validators.required]),
+         optionChecked : new FormControl('',   [Validators.required]),
+         address: new FormControl('', 	[Validators.required]),
+         dBirth : new FormControl('',   [Validators.required])
       });  
   	}
 
